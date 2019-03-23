@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box
+}
+
+ body {
+  width: 100%;
+}
+
+header, .section {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+h1 {
+  background: #53aaa5;
+  float: left;
+  /* margin: 10px; */
+  margin-bottom: 0px;
+  color: whitesmoke;
+}
+
+footer {
+  background: #666666;
+  text-align: center;
+  padding-top: 10px;
+  width: 70%;
+  margin: 0 auto;
+} 
+
+p {
+  border-top: 2px solid #dedede;
+  padding: 10px;
+}
+
+h1 {
+  padding: 10px; 
+}
+
+h2 {
+}
+
+a {
+  padding: 0px 5px;
+  text-decoration-line: none;
+  color: silver;
+  
+}
+
+/* how to add space between element in the following class */
+.right-nav {
+  float: right;
+  padding: 0px 5px;
+  margin-top: 35px;
+}
+
+
+.section {
+  clear: both;
+  border-top: black 2px solid;
+  background: #eeeeee;
+
+}
