@@ -4,7 +4,7 @@
 
 body {
   width: 100%;
-  background: #4aaaa5;
+  background:beige;
   margin: 0 auto;
   font-family: 'Georgia',
   Times,
@@ -14,14 +14,49 @@ body {
 
 header {
   background: white;
-  margin-top: 0%;
   width: 100%;
+  clear: both;
+  padding-bottom: 76px;
+
+}
+
+h1 {
+  background: #4aaaa5;
+  margin-left: 0px;
+  float: left;
+  margin: 0 auto;
+  padding: 20px 15px;
+  color: white;
+}
+
+a {
+  padding-left: 10px;
+  text-decoration-line: none;
+  color: gray;
+}
+
+footer {
+  background: #666666;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.subheader {
+  width: 80%;
   margin: 0 auto;
 }
 
-
-
-h1 {
-  
-
+.right-nav {
+  float: right;
+  padding-top: 50px;
 }
+
+.pageback {
+  clear: both;
+  width: 80%;
+  margin: 0 auto;
+  background: white;
+}
+
+
+
